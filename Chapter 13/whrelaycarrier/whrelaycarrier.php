@@ -30,7 +30,7 @@ class WHRelayCarrier extends CarrierModule implements WidgetInterface
         parent::__construct();
 
         //Optional localizable attributes
-        $this->confirmUninstall = $this->l('Do you still you want to uninstall this module?');
+        $this->confirmUninstall = $this->l('Do you still want to uninstall this module?');
         $this->description = $this->l('This module displays a new carrier');
         $this->displayName = $this->l('Drive relay delivery carrier');
     }
