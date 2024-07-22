@@ -25,7 +25,7 @@ class WHHelloWorld extends Module
         parent::__construct();
 
         //Optional localizable attributes
-        $this->confirmUninstall = $this->l('Do you still you want to uninstall the Hello World module?');
+        $this->confirmUninstall = $this->l('Do you still want to uninstall the Hello World module?');
         $this->description = $this->l('This is a simple hello world module.');
         $this->displayName = $this->l('Hello World');
     }
