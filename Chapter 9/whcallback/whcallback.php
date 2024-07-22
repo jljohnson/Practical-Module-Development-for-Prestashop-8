@@ -45,7 +45,7 @@ class WHCallback extends Module
         parent::__construct();
 
         //Optional localizable attributes
-        $this->confirmUninstall = $this->l('Do you still you want to uninstall this module?');
+        $this->confirmUninstall = $this->l('Do you still want to uninstall this module?');
         $this->description = $this->l('This is a customer callback module for your front office.');
         $this->displayName = $this->l('Customer callback');
     }
